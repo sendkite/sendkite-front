@@ -2,10 +2,271 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>hello world!</h1>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6bdbc4dd10.js" crossorigin="anonymous"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <title>Songyeon</title>
+    <style>
+        * {
+            font-family: Gowun Batang;
+        }
+
+        /* main page_navbar and title */
+
+        h1 {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #0b0d0f;
+            position: relative;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: gray;
+            margin-bottom: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: orange;
+        }
+
+
+        #main-top {
+            background-color: #efe8e2;
+
+        }
+
+        .container-fluid {
+            padding: 5% 15%;
+        }
+
+        .navbar {
+            margin-bottom: 5%;
+        }
+
+        li.nav-item {
+            font-size: 1.1rem;
+            text-align: center;
+            font-weight: bolder;
+            width: 70px;
+            color: orange;
+        }
+
+        .title-img {
+            width: 350px;
+            position: absolute;
+            z-index: 0;
+            top: 30%;
+            left: 15%;
+        }
+
+        /* About me page  */
+
+        #features {
+            font-size: 1rem;
+            position: relative;
+            background-color: #ffffff;
+            padding: 3% 10% 0 10%;
+
+        }
+
+        #features h1 {
+            font-size: 25px;
+            border-bottom: solid 1px #0b0d0f;
+            padding-bottom: 1%;
+            font-weight: bold;
+        }
+
+        #features h2 {
+            font-size: 20px;
+            padding-top: 1%;
+        }
+
+
+        footer {
+            text-align: center;
+            background-color: #1e1e1e;
+            padding: 20px;
+            font-size: 15px;
+            color: #919191;
+        }
+
+        /* For modile-friendly */
+        @media (max-width: 1028px) {
+
+            .logo {
+                display: none;
+            }
+
+            .title-img {
+                position: static;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+<section id="main-top">
+    <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <img class="logo" src="https://bucket-front.s3.ap-northeast-2.amazonaws.com/img/logo.png" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/">홈</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">게시글</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="title-img" src="https://bucket-front.s3.ap-northeast-2.amazonaws.com/img/newImg.png"
+                     alt="me-mockup">
+            </div>
+            <div class="col-lg-6 title-content">
+                <h1>안녕하세요.</h1>
+                <h2>개발자를 꿈꾸는 전송연 입니다.</h2>
+                <button onclick="location.href='/post'" class="btn btn-dark btn-lg" type="button">
+                    <i class="far fa-paper-plane"></i>
+                    게시글 작성
+                </button>
+                <button onclick="location.href='/login'" class="btn btn-outline-dark btn-lg" type="button">
+                    <i class="far fa-envelope"></i>
+                    로그인/회원가입
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Features -->
+<section id="features">
+    <div class="row">
+        <div>
+            <h1>👨‍💻About me</h1>
+        </div>
+
+        <div class="col-lg-3">
+            <h2>Introduction</h2>
+        </div>
+        <div class="col-lg-9">
+            <ul>
+                <li>도전과 끈기로 맡은 일에 최선을 다합니다.</li>
+                <li></li>
+                <li>3</li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3">
+            <h2>Contact & Channel</h2>
+        </div>
+        <div class="col-lg-9">
+            <ul>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    E-mail: songyeon@kakao.com
+                </li>
+                <li>
+                    <i class="fab fa-github"></i>
+                    https://github.com
+                </li>
+                <li>
+                    <i class="fab fa-instagram"></i>
+                    https://www.instagram.com/sendkite1/
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3">
+            <h2>Introduction</h2>
+        </div>
+        <div class="col-lg-9">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+        </div>
+
+        <!-- Skill -->
+        <div>
+            <h1>🛠Skills</h1>
+        </div>
+        <div class="col-lg-3">
+            <h2>Frontend</h2>
+        </div>
+        <div class="col-lg-9">
+            <ul>
+                <li>
+                    HTML5, CSS, JS(ES6)
+                </li>
+                <li>
+                    React.js
+                </li>
+                <li>
+                    Bootstrap4
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3">
+            <h2>Backend</h2>
+        </div>
+        <div class="col-lg-9">
+            <ul>
+                <li>
+                    Node.js(Express)
+                </li>
+                <li>
+                    ejs Template
+                </li>
+                <li>
+                    MongoDB
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+
+    <p>© Copyright 2021 Songyeon App</p>
+
+</footer>
 </body>
+
 </html>
+
