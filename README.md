@@ -4,7 +4,7 @@
 <summary>기획 과정</summary>
 
 - 평소 좋아하는 신발로 칼라를 먼저 정하고 패션 잡지 같은 느낌을 주고 싶었음
-- 서점을 돌아다니다가 아래의 이미지들을 참고
+- 아래의 이미지들을 참고
 
 ![Screen Shot 2021-12-29 at 6 07 21 PM](https://user-images.githubusercontent.com/90877864/147645496-d7df2823-e70f-410b-a15d-6ab4215e4fa2.png)
 
