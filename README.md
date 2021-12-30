@@ -1,5 +1,7 @@
 # [미니 프로젝트] 자기 PR 사이트
 
+https://www.sendkite.shop
+
 <details>
 <summary>기획 과정</summary>
 
