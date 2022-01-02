@@ -9,7 +9,8 @@
 - Email : songyeon@kakao.com
 - Github : https://github.com/sendkite
 
-## Introduction
+
+## 🧑‍💻Introduction
 
 <h5>
 
@@ -19,7 +20,7 @@
   
 </h5>
 
-## 핵심 경험
+## 🧑‍🏫핵심 경험
 
 - Spring Boot 기반의 REST API 개발
 - Flask로 개발한 API를 Spring Boot로 컨버팅하는 경험 
@@ -27,9 +28,9 @@
 - AWS 서비스를 활용한 배포 경험 (S3, CloudFront, Route53, EC2, EB, RDS) 
 - 고객 피드백을 반영한 제품 개발
 
-## Project 경험
+## 🎯Project 경험
 
-- [강아지를 만나다(Spring)](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 커뮤니티 사이트) (2021.11 ~ 12)
+- [강아지를 만나다(Spring)](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 커뮤니티 사이트) (2021.11 ~ 12, 5주)
     - 사용기술
         - Front : HTML/CSS/JS, JQuery, Bootstrap
         - Back : Spring Boot, H2, JPA, Mysql, Git Actions, AWS S3, EC2, RDS, Docker
@@ -42,7 +43,7 @@
         - Validation 라이브러리로 공통 Error 처리
         - 주소 api, datapicker 외부 api 활용
 
-- [강아지를 만나다(Flask)](https://github.com/thalals/MaruMaru_sparta)(POC- 반려견 기반 커뮤니티 사이트) (2021.9 ~ 2021.10)
+- [강아지를 만나다(Flask)](https://github.com/thalals/MaruMaru_sparta)(POC- 반려견 기반 커뮤니티 사이트) (2021.9 ~ 2021.10, 3주)
     - 사용기술
         - Front : HTML/CSS/JS, Jquery, Bootstrap
         - Back  : Flask, MongoDB, AWS EC2
@@ -58,7 +59,7 @@
             - 예외처리 
             - Error 페이지 간단한 게임 기능
 
-## 경력
+## 🧩경력
 
 ### 백산 (2019.01 ~ 2020.12) 해외영업 - 섬유 제조업
 + 미국, 베트남, 인도네시아, 중국, 대만 해외영업
@@ -72,14 +73,14 @@
 + Trade Mission, 수출입 상담회 운영
 
 
-## 학력, 교육
+## 🚲학력/교육
 
 + 스파르타 내일배움캠프 1기 (2021.09 ~ 2022.01)
 + 글로벌 디지털 인재 양성 1기 (2021.01 ~ 2021.06)
 + 강원대학교 영어과, 국제무역학과 (졸업 학점 4.15)
 + UiTM Malaysia 국제비즈니즈학과 교환학생
 
-### 핵심역량 🔑
+### 🔑핵심역량 
 
 
 - 커뮤니케이션 
