@@ -40,7 +40,7 @@
         - 댓글 CRUD 기능
         - AWS S3 활용한 파일 업로드 구현
         - Validation 라이브러리로 공통 Error 처리
-        - 지도 api, datapicker 외부 api 활용
+        - 주소 api, datapicker 외부 api 활용
 
 - [강아지를 만나다(Flask)](https://github.com/thalals/MaruMaru_sparta)(POC- 반려견 기반 커뮤니티 사이트) (2021.9 ~ 2021.10)
     - 사용기술
