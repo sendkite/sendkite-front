@@ -1,7 +1,7 @@
 ### 
 
 
-## <img src="https://raw.githubusercontent.com/parth-27/parth-27/master/Hi.gif" width="30px">안녕하세요, 영업사원 출신 개발자 전송연 입니다.
+## <img src="https://raw.githubusercontent.com/parth-27/parth-27/master/Hi.gif" width="30px">안녕하세요, 끈기로 개발자에 도전중인 전송연 입니다. 
 
 <img width="200" alt="Screen Shot 2021-12-30 at 2 43 45 AM" src="https://user-images.githubusercontent.com/90877864/147689358-817795ce-2d31-46c4-85ca-adf46339cd9f.png">
 
