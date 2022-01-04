@@ -1,7 +1,7 @@
 ### 
 
 
-## <img src="https://raw.githubusercontent.com/parth-27/parth-27/master/Hi.gif" width="30px">안녕하세요, 끈기로 개발자에 도전중인 전송연 입니다. 
+## <img src="https://raw.githubusercontent.com/parth-27/parth-27/master/Hi.gif" width="30px">안녕하세요, 개발자 전송연 입니다. 
 
 <img width="200" alt="Screen Shot 2021-12-30 at 2 43 45 AM" src="https://user-images.githubusercontent.com/90877864/147689358-817795ce-2d31-46c4-85ca-adf46339cd9f.png">
 
@@ -24,7 +24,7 @@
 
 - Spring Boot 기반의 REST API 개발
 - Flask로 개발한 API를 Spring Boot로 컨버팅하는 경험 
-- GIT/GitHub을 이용한 협업 경험 (Issue, Wiki, Git Action)
+- GIT/GitHub을 이용한 협업 경험 (Issue, Wiki, Git Actions)
 - AWS 서비스를 활용한 배포 경험 (S3, CloudFront, Route53, EC2, EB, RDS) 
 - 고객 피드백을 반영한 제품 개발
 
@@ -39,7 +39,7 @@
     - 내가 담당한 기능 :
         - 행사 이벤트(meets) 게시글 CRUD, 댓글 CRUD 기능 구현
         - AWS S3 활용해서 파일 업로드 구현, 구현 중에 해결     
-        - 사진 없이 필수 입력 값만 post하기 위해서 Validation 라이브러리로 공통 Error 처리
+        - 사진 없이 필수 입력 값만 post하기 위해 해결 중에 공통 Error 처리 방법 발견하여 적용
         - 주소 api, datapicker api 활용
 
 - [강아지를 만나다(Flask)](https://github.com/thalals/MaruMaru_sparta)(POC- 반려견 기반 커뮤니티 사이트) (2021.9 ~ 2021.10, 3주, 4명)
@@ -48,11 +48,8 @@
         - Back  : Flask, MongoDB, AWS EC2
     - 목적 : POC(Proof Of Concept)으로 프로젝트 빠르게 구성 및 배포 
     - 내가 담당한 기능 :
-        - 1차
             - 와이어프레임, API 설계
             - MongoDB를 이용해서 게시글 CRUD, 댓글 Create, Delete 기능 구현
-           
-        - 2차
             - Bootstrap을 활용하여 전체 디자인 담당. 
             - 좋아요, 조회수, 베스트 기능, 파일 업로더 기능 구현.
             - REST API로 변경, 1차에 사용한 템플릿 언어(jinja2) 제거  
