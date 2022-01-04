@@ -48,11 +48,11 @@
         - Back  : Flask, MongoDB, AWS EC2
     - 목적 : POC(Proof Of Concept)으로 프로젝트 빠르게 구성 및 배포 
     - 내가 담당한 기능 :
-            - 와이어프레임, API 설계
-            - MongoDB를 이용해서 게시글 CRUD, 댓글 Create, Delete 기능 구현
-            - Bootstrap을 활용하여 전체 디자인 담당. 
-            - 좋아요, 조회수, 베스트 기능, 파일 업로더 기능 구현.
-            - REST API로 변경, 1차에 사용한 템플릿 언어(jinja2) 제거  
+         - 와이어프레임, API 설계
+         - MongoDB를 이용해서 게시글 CRUD, 댓글 Create, Delete 기능 구현
+         - Bootstrap을 활용하여 전체 디자인 담당. 
+         - 좋아요, 조회수, 베스트 기능, 파일 업로더 기능 구현.
+         - REST API로 변경, 1차에 사용한 템플릿 언어(jinja2) 제거  
            
              
 
