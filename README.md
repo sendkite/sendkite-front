@@ -37,10 +37,10 @@
 
     - 목적 : 기존 Flask로 작업된 프로젝트를 Spring Boot로 컨버팅 및 배포
     - 내가 담당한 기능 :
-        - 행사 이벤트(meets) 게시글 CRUD, 댓글 CRUD 기능 구현
-        - AWS S3 활용해서 파일 업로드 구현, 구현 중에 해결     
         - 이벤트 작성 시, 필수 입력 값만 처리 중 공통 Error 처리
+        - AWS S3 활용해서 파일 업로드 구현, 구현 중에 해결     
         - 주소 api, datapicker api 활용
+        - 행사 이벤트(meets) 게시글 CRUD, 댓글 CRUD 기능 구현
 
 - [강아지를 만나다(Flask)](https://github.com/thalals/MaruMaru_sparta)(POC- 반려견 기반 커뮤니티 사이트) (2021.9 ~ 2021.10, 3주, 4명)
     - 사용기술
