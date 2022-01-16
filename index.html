@@ -16,14 +16,14 @@
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
     <title>Songyeon</title>
     <style>
         * {
-            font-family: Gowun Batang;
+            font-family: 'Gowun Batang', serif;
         }
 
         /* main page_navbar and title */
@@ -37,17 +37,23 @@
 
         h2 {
             font-size: 1.3rem;
-            color: gray;
+            font-weight: bold;
+            color: grey;
             margin-bottom: 20px;
         }
 
         a {
             text-decoration: none;
-            color: black;
+            color: dodgerblue;
         }
 
         a:hover {
             color: orange;
+        }
+
+        p {
+            font-weight: bold;
+            color: #919191;
         }
 
 
@@ -158,9 +164,10 @@
                      alt="me-mockup">
             </div>
             <div class="col-lg-6 title-content">
-                <h1>안녕하세요.</h1>
-                <h2>공부 자체를 즐기는 개발자를 꿈꿉니다.</h2>
-                <button onclick="location.href='https://github.com/thalals/MaruMaru_sparta_ver.Spring'" class="btn btn-dark btn-lg" type="button">
+                <h1>안녕하세요. 전송연 입니다.</h1>
+                <h2>꾸준함에서 오는 가치를 중요하게 생각합니다.</h2>
+                <button onclick="location.href='https://github.com/thalals/MaruMaru_sparta_ver.Spring'"
+                        class="btn btn-dark btn-lg" type="button">
                     <i class="far fa-paper-plane"></i>
                     최근 활동
                 </button>
@@ -179,9 +186,14 @@
             <h2>Introduction</h2>
         </div>
         <div class="col-lg-9">
-            <p>
-                안녕하세요
-            </p>
+            <h2>전송연의 포트폴리오</h2>
+            <ul>
+                <li><a href="https://github.com/sendkite/sendkite-front">이력서 보러가기</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h1>👨‍💻Contact & Channel</h1>
         </div>
 
         <div class="col-lg-3">
@@ -198,79 +210,59 @@
                     <a href="https://github.com/sendkite">깃허브</a>
                 </li>
                 <li>
+                    <i class="fas fa-blog"></i>
+                    <a href="https://yeoon.tistory.com">블로그</a>
+                </li>
+                <li>
                     <i class="fab fa-instagram"></i>
                     <a href="https://www.instagram.com/sendkite1">인스타그램</a>
                 </li>
             </ul>
         </div>
 
-        <!-- Skill -->
+        <!-- Project -->
         <div>
-            <h1>🛠Skills</h1>
+            <h1>🛠Projects</h1>
         </div>
-        <div class="col-lg-3">
-            <h2>Frontend</h2>
+        <div class="col-lg-4">
+            <h4>1. 강아지를 만나다</h4>
+            <br>
+            <h6>내가 담당한 기능 :</h6>
+            <ul>
+                <li><P>AOP를 활용한 공통 Error 처리</P></li>
+                <li><P>AWS S3 활용한 파일 업로드 구현</P></li>
+                <li><P>행사 이벤트(meets) 게시글 CRUD, 댓글 CRUD 기능 구현</P></li>
+            </ul>
         </div>
-        <div class="col-lg-9">
+        <div class="col-lg-8">
             <ul>
                 <li>
-                    HTML5, CSS, JS(ES6)
+                    반려견 커뮤니티 서비스 (팀 프로젝트 / 4인)
                 </li>
                 <li>
-                    Jquery
+                    개발 기간 : 2021.11 ~ 12, 5주
                 </li>
                 <li>
-                    Bootstrap4
+                    기술 스택 :
+                    <ul>
+                        <li>Java 8 / Spring Boot / Gradle / Spring Data JPA</li>
+                        <li>H2 / MySQL / Spring Security / RDS</li>
+                        <li>Git Actions / AWS S3, EC2, EB, Docker</li>
+                        <li>HTML/CSS/JS, JQuery, Bootstrap5</li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/thalals/MaruMaru_sparta_ver.Spring">프로젝트 상세 설명 참고</a>
                 </li>
             </ul>
+            <img class="home" src="https://bucket-front.s3.ap-northeast-2.amazonaws.com/maru-spring.png" alt="homepage"
+                 width="350">
         </div>
 
-        <div class="col-lg-3">
-            <h2>Backend</h2>
-        </div>
-        <div class="col-lg-9">
-            <ul>
-                <li>
-                    Spring Boot
-                </li>
-                <li>
-                    Node.js(Express)
-                </li>
-                <li>
-                    JPA
-                </li>
-                <li>
-                    MongoDB
-                </li>
-            </ul>
-        </div>
+        <hr/>
     </div>
 </section>
-
-<div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-<div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
-<div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
-</div>
 
 <footer id="footer">
 
