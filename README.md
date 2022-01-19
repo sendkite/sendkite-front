@@ -31,7 +31,7 @@
 
 ## 🎯Project 경험
 
-- [강아지를 만나다(Spring)](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 커뮤니티 사이트) (2021.11 ~ 12, 5주, 4명)
+- <img src="https://img.shields.io/badge/Github-%230A0A0A.svg?&style=flat-square&logo=Github&logoColor=white"> [강아지를 만나다(Spring)](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 커뮤니티 사이트) (2021.11 ~ 12, 5주, 4명)
     - 사용기술
         - Front : HTML/CSS/JS, JQuery, Bootstrap
         - Back : Spring Boot, , H2, JPA, Mysql, RDS
@@ -43,7 +43,7 @@
         - AWS S3 활용하여 파일 업로드 구현    
         - 행사 이벤트(meets) 게시글 CRUD, 댓글 CRUD 기능 구현
 
-- [강아지를 만나다(Flask)](https://github.com/thalals/MaruMaru_sparta)(POC- 반려견 기반 커뮤니티 사이트) (2021.9 ~ 2021.10, 3주, 4명)
+- <img src="https://img.shields.io/badge/Github-%230A0A0A.svg?&style=flat-square&logo=Github&logoColor=white"> [강아지를 만나다(Flask)](https://github.com/thalals/MaruMaru_sparta)(POC- 반려견 기반 커뮤니티 사이트) (2021.9 ~ 2021.10, 3주, 4명)
     - 사용기술
         - Front : HTML/CSS/JS, Jquery, Bootstrap
         - Back  : Flask, MongoDB, AWS EC2
