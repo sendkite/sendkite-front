@@ -27,17 +27,45 @@
 
 ## 🎯Project 경험
 
-- <img src="https://img.shields.io/badge/Github-%230A0A0A.svg?&style=flat-square&logo=Github&logoColor=white"> [강아지를 만나다(Spring)](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 커뮤니티 사이트) (2021.11 ~ 12, 5주, 4명)
-    - 사용기술
-        - JAVA 8, JavaScript ES6, JQuery
-        - Spring Boot, H2, JPA, Mysql, RDS
-        - AWS S3, EC2, EB, Docker
-        
-    - 내가 담당한 기능 :
-        - AOP를 활용한 공통 Error 처리
-        - AWS S3 활용하여 이미지 업로더 구현    
-        - 행사 이벤트(meets) 게시글 CRUD, 댓글 CRUD 기능 구현
-             
+### [강아지를 만나다(Spring)](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 커뮤니티 사이트) (2021.11 ~ 12, 5주, 4명)
+
+  - 게시글, 소모임을 만들 수 있는 커뮤니티 사이트(1차적으로 Flask로 개발한 뒤에 Spring으로 컨버팅)
+
+  - <img src="https://img.shields.io/badge/Github-%230A0A0A.svg?&style=flat-square&logo=Github&logoColor=white"> [강아지를 만나다(Flask)](https://github.com/thalals/MaruMaru_sparta) 버전
+
+  - 사용기술
+
+    - JAVA 8, JS ES6, JQuery
+    - Spring Boot, H2, JPA, Mysql, RDS
+    - AWS S3, EC2, EB, Docker
+
+  - 내가 담당한 기능 :
+
+    - AOP를 활용한 공통 Error 처리
+
+    - AWS S3 활용하여 이미지 업로더 구현    
+
+    - 행사 이벤트(meets) 게시글 CRUD, 댓글 CRUD 기능 구현
+
+      
+
+### <img src="https://img.shields.io/badge/Github-%230A0A0A.svg?&style=flat-square&logo=Github&logoColor=white"> [SNS 사이트](https://github.com/sendkite/nodejs-sns-project)(SNS 사이트 클론코딩) (2021.07 ~ 2021,08, 3주, 개인 프로젝트)
+
+  - Express로 만들어보는 SNS 기능 홈페이지
+
+  - 사용기술
+
+    - JS ES6, Node.JS, ejs template
+
+    - MongoDB Atlas, AWS S3
+
+      
+
+### [나를 소개하자](http://www.sendkite.shop)(자기소개 사이트) (2021.12 ~ 01, 1주, 개인 프로젝트)
+  - CI/CD 환경의 자기소개 사이트 
+  - 사용기술
+    - JS
+    - AWS S3, Cloud Front, Route 53
 
 ## 🧩경력
 
