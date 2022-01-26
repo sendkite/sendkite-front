@@ -27,7 +27,7 @@
 
 ## 🎯Project 경험
 
-### [강아지를 만나다(Spring)](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 커뮤니티 사이트) (2021.11 ~ 12, 5주, 4명)
+### <img src="https://img.shields.io/badge/Github-%230A0A0A.svg?&style=flat-square&logo=Github&logoColor=white"> [강아지를 만나다(Spring)](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 커뮤니티 사이트) (2021.11 ~ 12, 5주, 4명)
 
   - 게시글, 소모임을 만들 수 있는 커뮤니티 사이트(1차적으로 Flask로 개발한 뒤에 Spring으로 컨버팅)
 
