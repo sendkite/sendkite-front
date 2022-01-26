@@ -31,27 +31,14 @@
 
 - <img src="https://img.shields.io/badge/Github-%230A0A0A.svg?&style=flat-square&logo=Github&logoColor=white"> [강아지를 만나다(Spring)](https://github.com/thalals/MaruMaru_sparta_ver.Spring)(반려견 커뮤니티 사이트) (2021.11 ~ 12, 5주, 4명)
     - 사용기술
-        - Front : HTML/CSS/JS, JQuery, Bootstrap
-        - Back : Spring Boot, , H2, JPA, Mysql, RDS
-        - 배포 : Git Actions, AWS S3, EC2, EB, Docker
-
-    - 목적 : 기존 Flask로 작업된 프로젝트를 Spring Boot로 컨버팅 및 배포
+        - JAVA 8, JavaScript ES6, JQuery
+        - Spring Boot, H2, JPA, Mysql, RDS
+        - AWS S3, EC2, EB, Docker
+        
     - 내가 담당한 기능 :
         - AOP를 활용한 공통 Error 처리
         - AWS S3 활용하여 파일 업로드 구현    
         - 행사 이벤트(meets) 게시글 CRUD, 댓글 CRUD 기능 구현
-
-- <img src="https://img.shields.io/badge/Github-%230A0A0A.svg?&style=flat-square&logo=Github&logoColor=white"> [강아지를 만나다(Flask)](https://github.com/thalals/MaruMaru_sparta)(POC- 반려견 기반 커뮤니티 사이트) (2021.9 ~ 2021.10, 3주, 4명)
-    - 사용기술
-        - Front : HTML/CSS/JS, Jquery, Bootstrap
-        - Back  : Flask, MongoDB, AWS EC2
-    - 목적 : POC(Proof Of Concept)으로 프로젝트 빠르게 구성 및 배포 
-    - 내가 담당한 기능 :
-         - 좋아요, 조회수, 베스트 기능, 파일 업로더 기능 구현
-         - 와이어프레임, API 설계
-         - Bootstrap을 활용하여 전체 디자인 담당
-         - REST API로 변경, 1차에 사용한 템플릿 언어(jinja2) 제거  
-         - MongoDB를 이용해서 게시글 CRUD, 댓글 Create, Delete 기능 구현  
              
 
 ## 🧩경력
